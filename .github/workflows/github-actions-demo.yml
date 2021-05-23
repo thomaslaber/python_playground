@@ -22,7 +22,7 @@ jobs:
     - name: Send email
       uses: devellany/send-mail@v1.0.2
       with:
-          host: smtp.naver.com
+          host: smtp.google.com
           account: ${{secrets.MAIL_ADDRESS}}
           password: ${{secrets.MAIL_PASSWORD}}
           sender: devellany
